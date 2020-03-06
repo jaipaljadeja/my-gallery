@@ -1,0 +1,275 @@
+/* ---------------------- Photographs Page ---------------------------------------------*/
+html {
+  scroll-behavior: smooth;
+}
+body {
+  /* font-family: "Bebas Neue"; */
+  background: url("https://source.unsplash.com/nCrrvuoyftA");
+  background-size: cover;
+}
+
+/* Image hover transition */
+
+.zoom {
+  overflow: hidden;
+  max-height: 200px;
+  box-shadow: 10px 10px 20px #292929d8;
+  border: 1.5px solid rgba(255, 255, 255, 0.925);
+}
+.image {
+  position: relative;
+}
+
+.pad-fix {
+  padding-bottom: 30px;
+}
+
+.thumbnail {
+  transition: 1s ease;
+  width: 100%;
+}
+
+.thumbnail:hover {
+  transform: scale(1.1);
+}
+
+/* End */
+
+.nav {
+  letter-spacing: 2px;
+}
+body {
+  padding-top: 70px;
+}
+
+#tagline-myname {
+  margin: 80px;
+  margin-bottom: 30px;
+  margin-left: 0px;
+  color: white;
+  font-size: 80px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+#tagline-myname span {
+  color: crimson;
+}
+#tagline-slogan {
+  color: white;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+}
+
+/* HR ABOVE PHOTOS */
+#index-hr {
+  margin-top: 40px;
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  margin-bottom: 40px;
+}
+/* HR END */
+.navbar-inverse {
+  background: #000000af;
+}
+
+.navbar-inverse .navbar-nav li a {
+  padding-top: 32px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+.navbar-inverse .navbar-nav li a:hover {
+  color: aqua;
+}
+.navbar-header .navbar-brand {
+  width: 180px;
+  height: 90px;
+  padding: 0px;
+  padding-left: 20px;
+}
+.image {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.image1 {
+  background-image: url(https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=);
+}
+
+.image2 {
+  background-image: url(https://images.unsplash.com/photo-1465405092061-4db6005a2be0?dpr=2&auto=format&fit=crop&w=1500&h=2250&q=80&cs=tinysrgb&crop=);
+}
+
+.image1 {
+  background-image: url("https://d37b3blifa5mva.cloudfront.net/000_clients/1431025/page/1431025kkXelCOx.jpg");
+}
+.image2 {
+  background-image: url("https://d37b3blifa5mva.cloudfront.net/000_clients/1431025/page/1431025Oq0YQLZZ.jpg");
+}
+.image3 {
+  background-image: url("https://d37b3blifa5mva.cloudfront.net/000_clients/1431025/page/1431025u5zYFC6n.jpg");
+}
+.image4 {
+  background-image: url("https://dvqlxo2m2q99q.cloudfront.net/000_clients/1431025/page/1431025QQldicEM.jpg");
+}
+.image5 {
+  background-image: url("https://d37b3blifa5mva.cloudfront.net/000_clients/1431025/page/1431025jnJqGVXF.jpg");
+}
+.image6 {
+  background-image: url("https://d37b3blifa5mva.cloudfront.net/000_clients/1431025/page/1431025eq41stWB.jpg");
+}
+.image7 {
+  background-image: url("https://d37b3blifa5mva.cloudfront.net/000_clients/1431025/page/1431025iX03D92m.jpg");
+}
+.image8 {
+  background-image: url("https://d37b3blifa5mva.cloudfront.net/000_clients/1431025/page/1431025eKk2MJXF.jpg");
+}
+.image9 {
+  background-image: url("https://d37b3blifa5mva.cloudfront.net/000_clients/1431025/page/1431025CFUCa352.jpg");
+}
+
+.image10 {
+  background-image: url("https://d37b3blifa5mva.cloudfront.net/000_clients/1431025/page/1431025NwbStAfg.jpg");
+}
+.image11 {
+  background-image: url("https://d37b3blifa5mva.cloudfront.net/000_clients/1431025/page/1431025j4jWW6Pq.jpg");
+}
+.image12 {
+  background-image: url("https://d37b3blifa5mva.cloudfront.net/000_clients/1431025/page/14310251Byhm1TC.jpg");
+}
+
+.image {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.thumbnail {
+  border: 0px;
+  padding: 0px;
+}
+
+/* -------------------------- About Page ------------------------------------------ */
+.about-div {
+  background-color: rgba(0, 0, 0, 0.637);
+  margin-top: 50px;
+}
+.c1 {
+  /* background-color: pink; */
+  height: 100vh;
+  display: grid;
+  font-family: "Bebas Neue";
+}
+
+.c1 #name {
+  text-align: right;
+  margin: auto;
+  color: white;
+}
+
+#name h1 {
+  font-size: 150px;
+}
+
+#name p {
+  font-size: 20px;
+}
+.c2 {
+  height: 100vh;
+  display: grid;
+}
+
+.c2 img {
+  border-radius: 50%;
+  width: 350px;
+  margin: auto;
+}
+
+/* CONTACT PAGE */
+#contactpg {
+  margin-top: 100px;
+  background-color: white;
+}
+
+.address .fas {
+  font-size: 3em;
+  text-align: center;
+  opacity: 0.3;
+  color: white;
+}
+.row .address p {
+  font-family: Helvetica;
+  margin-top: 30px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.address {
+  margin-top: 40px;
+  text-align: center;
+  color: rgba(128, 128, 128, 0.651);
+}
+
+#contact-hr {
+  margin-top: 40px;
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+/* footer */
+
+.footer-wrapper {
+  background-color: rgba(0, 0, 0, 0.808);
+  padding: 30px 0;
+}
+.footer-wrapper .container h4 {
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(204, 204, 204);
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+#social-handles a {
+  padding-right: 30px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(150, 150, 150);
+  list-style: none;
+  line-height: 30px;
+  letter-spacing: 2px;
+}
+#social-handles li {
+  text-align: center;
+  list-style: none;
+}
+
+#social-handles a:hover {
+  font-size: 18px;
+  color: rgba(255, 255, 0, 0.63);
+  text-decoration: none;
+  transition: ease 0.5s;
+}
+
+.abilities {
+  padding: 30px 0;
+  background-color: rgba(0, 0, 0, 0.822);
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(150, 150, 150);
+}
+
+.abilities h4 {
+  font-weight: 600;
+}

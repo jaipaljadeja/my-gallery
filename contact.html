@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Linking Bootstrap CSS -->
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+
+    <!-- LINKING JQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Linking Bootstrap JAVASCRIPT -->
+
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://kit.fontawesome.com/a29c43da45.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- materialze css -->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="materialize.css" />
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Contact Us!</title>
+  </head>
+  <body id="contactpg">
+    <!-- Navigation Bar -->
+
+    <nav class="navbar navbar-inverse navbar-static-top navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-nav-demo"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="index.html"
+            ><img class="navbar-brand" src="/files/brand.png" alt=""
+          /></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-nav-demo">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Sign Up</a></li>
+            <li><a href="#">Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- contact -->
+    <div class="container">
+      <div class="container">
+        <div class="row">
+          <form
+            class="col s12"
+            action="https://formspree.io/xayeedrg"
+            method="POST"
+          >
+            <div class="row">
+              <div class="input-field col s6">
+                <input
+                  placeholder="First Name"
+                  id="first_name"
+                  type="text"
+                  class="validate"
+                  name="First Name"
+                />
+                <label for="first_name">First Name</label>
+              </div>
+              <div class="input-field col s6">
+                <input
+                  placeholder="Last Name"
+                  id="last_name"
+                  type="text"
+                  class="validate"
+                  name="Last Name"
+                />
+                <label for="last_name">Last Name</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input
+                  placeholder="Enter your message here"
+                  id="message"
+                  type="text"
+                  class="validate"
+                  name="Message"
+                />
+                <label for="message">Message</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input
+                  placeholder="Email"
+                  id="email"
+                  type="email"
+                  class="validate"
+                  name="Email"
+                />
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input
+                  placeholder="Password"
+                  id="password"
+                  type="password"
+                  class="validate"
+                />
+                <label for="password">Password</label>
+              </div>
+            </div>
+            <button class="btn waves-effect waves-light" type="submit">
+              Submit
+              <i class="material-icons right">send</i>
+            </button>
+            <hr id="contact-hr" />
+            <div class="row">
+              <div class="col s4 address">
+                <i class="fas fa-phone-alt"></i>
+                <div>
+                  <p>+91 7016573209</p>
+                </div>
+              </div>
+              <div class="col s4 address">
+                <i class="fas fa-map-marked-alt"></i>
+                <div>
+                  <p>Jamnagar, Gujarat 361006 IN</p>
+                </div>
+              </div>
+              <div class="col s4 address">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <p>jaipaljadeja.yt@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
